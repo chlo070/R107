@@ -1,7 +1,7 @@
-n=int (input("Entrez un nombre :"))
+n=int (input("Entrez un nombre entier :"))
 if n<0 :
     if n%2==0 :
-        print(n, " est un nombre négatif et pair.")
+        print("Le nombre négatif et pair.")
     else :
         print(n, " est un nombre négatif et impair.")
 elif n>0 :
@@ -10,4 +10,4 @@ elif n>0 :
     else :
         print(n, " est un nombre positif et impair.")
 else :
-    print(n, " vaut 0.")
+    print("Le nombre est 0 (et il est pair).")
