@@ -1,15 +1,4 @@
 age=int (input("Donnez votre age: "))
-y=int (input("Entrez y: "))
-temp=int
-
-print("Avant permutation :")
-print("x : ", x)
-print("y : ", y)
-temp=y
-y=x
-x=temp
-
-
-print("Après permutation :")
-print("x : ", x)
-print("y : ", y)
+print(age)
+var = 2024-age
+print("Votre année de naissance est : ", var)
