@@ -9,10 +9,6 @@ temp=y
 y=x
 x=temp
 
-print("Après permutation :")
-print("x : ", x)
-print("y : ", y)
-
 
 print("Après permutation :")
 print("x : ", x)
