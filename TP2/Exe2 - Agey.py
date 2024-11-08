@@ -1,4 +1,4 @@
-x=int (input("Entrez x: "))
+age=int (input("Donnez votre age: "))
 y=int (input("Entrez y: "))
 temp=int
 
