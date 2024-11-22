@@ -1,0 +1,1 @@
+while debut == fin or debut > 25 or fin < 0
