@@ -1,12 +1,10 @@
 print("De quelle heure à quelle heure se fait la location?")
 debut=int(input("Heure de début (un entier)")
 fin=int(input("Heure de fin (un entier)")
-var=int
+plage=fin-debut
 tarif1=int
 tarif2=int
-prix=int
 
-var = fin-debut
         
 while debut == fin or debut > 25 or fin < 0 or debut > fin :
   print("Attention ! L'heure de fin est identique à l'heure de début" end "")
@@ -18,8 +16,14 @@ while debut == fin or debut > 25 or fin < 0 or debut > fin :
 if debut<7 and debut>17 and 
         
 for i in range(debut, 7)
+        tarif1+=1
+for j in range(7, 17)
+        tarif2+=2
+for k in range(debut, 7)
+        tarif1+=1
+        tarif2+=2
 
-          
+
 prix = tarif1 + tarif2
           
 print("Vous avez loué votre vélo pendant")
