@@ -5,6 +5,7 @@ moyenne = 0.0
 notes = []
 i=0
 somme=0
+
 for i in range (nombreEtudiants):
     note = int(input(f"Donnez la note de l'etudiant {round(i,1)}: "))
     notes.append(note)
@@ -13,6 +14,12 @@ for i in range (nombreEtudiants):
 moyenne=somme/nombreEtudiants
 
 print(f"Moyenne de classe : {moyenne}")
+
+
+print("Numéro de l'Etudiants | note | ecart a la moyenne")
+for i in range(nombreEtudiants):
+    ecart=notes[i]-moyenne
+    print(f"{i} | {notes[i]} | {ecart}")
 
 
 
