@@ -22,8 +22,8 @@ for i in range(n):
 print(f"Le nombre le plus frequent dans la liste est le : {maxIndice} ({maxOcc}x)")
 
 #Partie2
-n = len(L1)
-L1.count(L1[i])
+#n = len(L1)
+#L1.count(L1[i])
 
 
 """ ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** *
