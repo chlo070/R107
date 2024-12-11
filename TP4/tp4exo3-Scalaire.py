@@ -1,4 +1,4 @@
-nMax = 3
+nMax = 4
 v1 = []
 v2 = list()
 n = int(input("Quelle est la taille de vos vecteurs [entre 1 et 3] ? :"))
@@ -38,3 +38,15 @@ print("Le produit scalaire de v1 par v2 vaut", resultat)
 
 #print("Le produit scalaire de v1 par v2 vaut", 39.0)
 #
+
+#question du Quiz
+#L1 = [2, 7, 5, 6, 7, 1, 6, 2, 1, 7, 6]
+#a = -1
+#b = 0
+
+#for i in range( ?? ):
+#    if L1. ?? > b and ?? :
+#        a = L1[i]
+#        b = ??
+
+#print(f"Le nombre le plus frequent dans le tableau est le : { ?? } (il apparait { ?? })")

@@ -7,7 +7,7 @@ i=0
 somme=0
 
 for i in range (nombreEtudiants):
-    note = int(input(f"Donnez la note de l'etudiant {round(i,1)}: "))
+    note = float(input(f"Donnez la note de l'etudiant {round(i,1)}: "))
     notes.append(note)
     somme += note
 
