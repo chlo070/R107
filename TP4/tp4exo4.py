@@ -32,3 +32,14 @@ count()
 * Ne rien modifier apres cette ligne.
 ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** * /
 """
+#Question du Quiz :
+#L1 = [2, 7, 5, 6, 7, 1, 6, 2, 1, 7, 6]
+#a = -1
+#b = 0
+
+#for i in range( ?? ):
+#    if L1. ?? > b and ?? :
+#        a = L1[i]
+#        b = ??
+
+#print(f"Le nombre le plus frequent dans le tableau est le : { ?? } (il apparait { ?? })")
