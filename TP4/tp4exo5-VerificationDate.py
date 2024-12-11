@@ -6,8 +6,8 @@
 msg = "date correcte"
 
 date=input("Quelle est la date?:")
-jour = int(date[0]*10 + date[1])
-mois = int(date[2]*10 + date[3])
+jour = int(date[0])*10 + int(date[1])
+mois = int(date[2])*10 + int(date[3])
 annee = int(date[4]*1000 + date[5]*100 + date[6]*10 + date[7])
 
 print (f"{jour}/{mois}/{annee}")
