@@ -10,7 +10,6 @@ for i in range(0, n):
     argument = float(input(f"v1[{i}]="))
     v1.append(argument)
 
-
 print("Saisie du second vecteur :")
 for i in range(0, n) :
     argument = float(input(f"v2[{i}]="))

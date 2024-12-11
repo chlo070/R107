@@ -1,4 +1,3 @@
-
 n=float(input("Vous cherchez la table de multiplication de quel nombre ?:"))
 table=[]
 i=0
