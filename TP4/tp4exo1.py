@@ -10,7 +10,6 @@ for i in range(10):
     print(f"{n} * {i} = {table[i]}")
 
 
-
 #round(x,n)
 #exemple de sortie :Vous cherchez la table de multiplication de quel nombre ?
 #1.2 * 0 = 0.0
