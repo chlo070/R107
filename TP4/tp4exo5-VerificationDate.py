@@ -1,9 +1,9 @@
+#Ecrire le programme qui détermine si la date est valide ou non en affichant un message.
 #traiter jjmmaaaa comme une liste
-# position 0=j1, position 1=j2, 2=m1, 3=m2, 4=a1, 5=a2, 6=a3, 7=a4
+#position 0=j1, position 1=j2, 2=m1, 3=m2, 4=a1, 5=a2, 6=a3, 7=a4
 
-taille = 8
 Date=[]
-
+taille = 8
 
 
 #demander les valeurs de la position 0 à 2 exclu
