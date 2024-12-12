@@ -9,7 +9,7 @@ tarif2=0
 while debut == fin or debut > 25 or fin < 0 or debut > fin :
   print("Attention ! L'heure de fin est identique à l'heure de début")
   print("Les heures doivent être comprises entre 0 et 24")
-  print("Attention ! Le début de la location est après la fin...", end="")
+  print("Attention ! Le début de la location est après la fin...")
   debut=int(input("Heure de début (un entier) :"))
   fin=int(input("Heure de fin (un entier) :"))
   

@@ -8,17 +8,18 @@ msg = "date correcte"
 date=input("Quelle est la date?:")
 jour = int(date[0])*10 + int(date[1])
 mois = int(date[2])*10 + int(date[3])
-annee = int(date[4]*1000 + date[5]*100 + date[6]*10 + date[7])
+annee = int(date[4])*1000 + int(date[5])*100 + int(date[6])*10 + int(date[7])
 
 print (f"{jour}/{mois}/{annee}")
 
-"""
 while 0 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 :
     print("Date incorrecte, entrez une nouvelle date :")
-    jour = int(jjmmaaaa[0] * 10 + jjmmaaaa[1])
-    mois = int(jjmmaaaa[0] * 10 + jjmmaaaa[1])
-    annee = int(jjmmaaaa[0] * 1000 + jjmmaaaa[0] * 100 + jjmmaaaa[0] * 10 + jjmmaaaa[1])
+    jour = int(date[0]) * 10 + int(date[1])
+    mois = int(date[2]) * 10 + int(date[3])
+    annee = int(date[4]) * 1000 + int(date[5]) * 100 + int(date[6]) * 10 + int(date[7])
 
+
+"""
 #Pour une année bisextile :
 if mois == 2 :
    if ((annee%4 == 0 and annee%100!=0) or annee%400 == 0) :
