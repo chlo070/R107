@@ -3,13 +3,12 @@ L1 = [2, 7, 5, 6, 7, 1, 6, 2, 9, 7, 6]
 """ ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** *
 * Completez le programme a partir d'ici.
 ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** * /
-"""
+
 #Partie1
 print(L1)
 n = len(L1)
 maxOcc = 0
 maxIndice = 0
-nbrIndice = 0
 for i in range(n):
     occurence = 0
     for j in range(i, n):
@@ -20,10 +19,21 @@ for i in range(n):
                 maxIndice = L1[i]
 
 print(f"Le nombre le plus frequent dans la liste est le : {maxIndice} ({maxOcc}x)")
+"""
 
 #Partie2
-#n = len(L1)
-#L1.count(L1[i])
+print(L1)
+n = len(L1)
+maxOcc = 0
+maxIndice = 0
+for i in range (len(L1)) :
+    occurence = 0
+    occurrence = L1.count(L1[i])
+    if occurrence > maxOcc :
+        maxOcc = occurrence
+        maxIndice = L1[i]
+print(f"Le nombre le plus frequent dans la liste est le : {maxIndice} ({maxOcc}x)")
+
 
 
 """ ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** *
