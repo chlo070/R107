@@ -12,38 +12,37 @@ annee = int(date[4])*1000 + int(date[5])*100 + int(date[6])*10 + int(date[7])
 
 print (f"{jour}/{mois}/{annee}")
 
-while 0 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 :
+while 1000 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 :
     print("Date incorrecte, entrez une nouvelle date :")
     jour = int(date[0]) * 10 + int(date[1])
     mois = int(date[2]) * 10 + int(date[3])
     annee = int(date[4]) * 1000 + int(date[5]) * 100 + int(date[6]) * 10 + int(date[7])
 
 
-"""
-#Pour une année bisextile :
-if mois == 2 :
-   if ((annee%4 == 0 and annee%100!=0) or annee%400 == 0) :
-       if (1 <= jour and jour <= 29) :
-            msg = "date correcte"
-
-if mois == 2 :
-   if ((annee%4 == 0 and annee%100!=0) or annee%400 == 0) :
+#Pour mois à 30j (liste)
+m30=[4,6,9,11]
+if mois != m30 :
+    if jour > 30:
+        msg = "date incorrecte"
+    else:
+        msg = "date correcte"
+#Pour une année bisextile + mois de février:
+elif mois == 2 :
+   if (annee%4 == 0 and annee%100!=0) or annee%400 == 0 :
        if jour > 29 :
            msg = "date incorrecte"
-   else:
-       if jour > 28 :
-           msg = ("date incorrecte")
-elif mois not in m31 :
-    if jour > 30 :
-        msg = ("date incorrecte")
+       else :
+           msg = "date correcte"
+   else :
+       if jour > 28:
+           msg = "date incorrecte"
+       else:
+           msg = "date correcte"
 
 
-#lilste des mois à 31jrs
-m31=[1,3,5,7,8,10,12]
+print(msg)
 
-
-
-
+"""
 #autre methode
 
 #demander les valeurs de la position 0 à 8 exclu
