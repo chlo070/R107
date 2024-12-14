@@ -17,14 +17,16 @@ dico['group'] = 'RT132'
 print(dico)
 #print(f"Votre nom est {'name'}, prénom est {'firstname'}, vous faites partie de la promo {'promo'} et votre groupe est {'group'}")
 print(f"Les clés du dictionnaire sont :,")
-for i in range (len(dico)) :
-    print(f"-dico.keys(i)")
+for i in dico.keys() :
+    print(f"-{i}")
+"""
 print(f"Les valeurs du dictionnaire sont :,")
 for i in range (len(dico)) :
-    print(f"-dico.values(i)")
+    print(f"-{dico.values(i)}")
 print(f"Les tuplets du dictionnaire sont :,")
-for i in range (len(dico),
-    print(f"-dico.items(i)")
+for i in range (len(dico)) :
+    print(f"-{dico.items(i)}")
+"""
 
 #Affichage avec les méthodes keys(), values() et items()
 """
