@@ -9,8 +9,6 @@ for i in range (len(tab)) :
             tab[i]=tab[j]
             tab[j]=temp
 
-
 print(sorted(tab))
-
 
 #Partie 2 avec tab.sort()

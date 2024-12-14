@@ -15,7 +15,7 @@ dico['name'] = 'Sondag'
 dico['promo'] = 'RT1 2024'
 dico['group'] = 'RT132'
 #print(dico)
-print(f"Votre nom est {'name'}, prénom est {'firstname'}, vous faites partie de la promo {'promo'} et votre groupe est {'group'}")
+print(f"Votre nom est {dico['name']}, prénom est {dico['firstname']}, vous faites partie de la promo {dico['promo']} et votre groupe est {dico['group']}")
 
 #Affichage avec les méthodes keys(), values() et items()
 print(f"Les clés du dictionnaire sont :,")
