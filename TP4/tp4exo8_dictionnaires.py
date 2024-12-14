@@ -1,13 +1,4 @@
 #les dictionnaires
-"""
-#exemple :
-dico = {}
-dico['computer'] = 'ordinateur'
-dico['mouse'] ='souris'
-dico['keyboard'] ='clavier'
-print(dico)
-{'computer': 'ordinateur', 'keyboard': 'clavier', 'mouse': 'souris'}
-"""
 
 dico = {}
 dico['firstname'] = 'Chloé'
@@ -15,9 +6,11 @@ dico['name'] = 'Sondag'
 dico['promo'] = 'RT1 2024'
 dico['group'] = 'RT132'
 #print(dico)
-print(f"Votre nom est {dico['name']}, prénom est {dico['firstname']}, vous faites partie de la promo {dico['promo']} et votre groupe est {dico['group']}")
-
-#Affichage avec les méthodes keys(), values() et items()
+print()
+#5.
+print(f"Votre nom est {dico['name']}, votre prénom est {dico['firstname']}, vous faites partie de la promo {dico['promo']} et votre groupe est {dico['group']}")
+print()
+#6.Affichage avec les méthodes keys(), values() et items()
 print(f"Les clés du dictionnaire sont :,")
 for i in dico.keys() :
     print(f"-{i}")
@@ -27,34 +20,25 @@ for i in dico.values() :
 print(f"Les tuplets du dictionnaire sont :,")
 for i in dico.items() :
     print(f"-{i}")
+print()
 
-"""
+#7.Ajout d'un binome
 dicobin = {}
 dicobin['firstname'] = 'Lea'
 dicobin['name'] = 'Schmidt'
 dicobin['promo'] = 'RT1 2024'
 dicobin['group'] = 'RT132'
 print(dicobin)
+print()
+#8.
+binome = {}
+binome['étudiant 1'] = dico
+binome['étudiant 2'] = dicobin
+print(binome)
+print()
 
+#9 Affichage ligne par ligne des membres du binome
+print(f"Les étudiants formants le binôme sont :")
+print(f"- L'étudiant {dico['firstname']} {dico['name']} du groupe {dico['group']}")
+print(f"- L'étudiant {dicobin['firstname']} {dicobin['name']} du groupe {dicobin['group']}")
 
-
-#Affichage avec les méthodes keys(), values() et items()
-
-Un exemple d’affichage à produire pour le dictionnaire : dic={"name":"toto","firstname":"titi","promo":2022,"group":202} :
- 
-Les clés du dictionnaire sont :
--name
--firstname
--promo
--group
-Les valeurs du dictionnaire sont :
--toto
--titi
--2022
--202
-Les tuplets du dictionnaire sont :
--('name', toto)
--('firstname', titi)
--('promo', 2022)
--('group', 202)
-"""
