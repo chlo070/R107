@@ -19,28 +19,27 @@ while 0 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 
     mois = int(date[2]) * 10 + int(date[3])
     annee = int(date[4]) * 1000 + int(date[5]) * 100 + int(date[6]) * 10 + int(date[7])
 
+print(f"{jour}/{mois}/{annee}")
 
 #Pour mois à 30j (liste)
 m30=[4,6,9,11]
-if mois != m30 :
+if mois in m30 :
     if jour > 30:
-        msg = "date incorrecte"
+        msg = "date incorrecte1"
     else:
-        msg = "date correcte"
+        msg = "date correcte1"
 #Pour une année bisextile + mois de février:
 elif mois == 2 :
    if (annee%4 == 0 and annee%100!=0) or annee%400 == 0 :
        if jour > 29 :
-           msg = "date incorrecte"
+           msg = "date incorrecte2"
        else :
-           msg = "date correcte"
+           msg = "date correcte2"
    else :
        if jour > 28:
-           msg = "date incorrecte"
+           msg = "date incorrecte3"
        else:
-           msg = "date correcte"
-
-
+           msg = "date correcte3"
 print(msg)
 
 """

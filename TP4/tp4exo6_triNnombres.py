@@ -13,7 +13,4 @@ for i in range (len(tab)) :
 print(sorted(tab))
 
 
-
-
-
 #Partie 2 avec tab.sort()
