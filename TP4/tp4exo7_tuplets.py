@@ -1,4 +1,10 @@
 #tuplet binome
-#« L’étudiant login1 est en binome avec l’étudiant login2 » où « login1 » et « login2
 
+binome=('chloe.sondag', 'imene.mira')
+print(f"Le binôme actuel est ", {binome})
+
+str="L’étudiant chloe.sondag est en binome avec l’étudiant imene.mira"
+
+print(f"Indiquez le nouveau binôme de", {binome(0)},": ")
+nvo=str(input(binome(1)))
 
