@@ -12,7 +12,7 @@ annee = int(date[4])*1000 + int(date[5])*100 + int(date[6])*10 + int(date[7])
 
 print (f"{jour}/{mois}/{annee}")
 
-while 1000 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 :
+while 0 > annee or annee > 9999 or 0 > mois or mois>12 or jour < 1 or jour > 31 :
     print("Date incorrecte, entrez une nouvelle date :")
     jour = int(date[0]) * 10 + int(date[1])
     mois = int(date[2]) * 10 + int(date[3])
