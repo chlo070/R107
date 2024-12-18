@@ -1,17 +1,19 @@
 
 
 N = int(input("Merci de préciser le nombre de lignes : "))
-etoile = "*"
-"""
-for i in range (1,N+1) :
+etoile = ['*']
+
+for i in range(1, N+1) :
     print(etoile * i)
-
 print()
-"""
-espace = " "
-ligneTriangle = ""
-for i in range (N,0,-1) :
-    for j in range (0,N) :
-        ligneTriangle = (espace*j) + (etoile*i)
-        print(ligneTriangle)
 
+listEspace=[]
+ligneTriangle = []
+
+print(etoile)
+for i in range(len(etoile)) :
+    listEspace.append(' ')
+    etoile.remove(etoile[-1])
+    ligneTriangle.append(listEspace[i], etoile[i])
+    print(ligneTriangle)
+""""""

@@ -1,12 +1,10 @@
 n=float(input("Vous cherchez la table de multiplication de quel nombre ?:"))
 table=[]
 i=0
-for i in range (10) :
+for i in range (1,11) :
     res= round(n * i,1)
     table.append(res)
-
-#print(table)
-#for i in range(10):
+for i in range(1,11):
     print(f"{n} * {i} = {table[i]}")
 
 

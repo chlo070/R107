@@ -10,9 +10,8 @@ chaque
 exercice, vous
 lisez
 bien
-l
-'énoncé dans sa totalité, y compris les N.B. Vous avez un champ (contenant déjà quelques commentaires) pour déposer votre code après l'
-avoir
+l('énoncé dans sa totalité, y compris les N.B. Vous avez un champ (contenant déjà quelques commentaires) pour déposer votre code '
+après l'avoir
 rédigé
 et
 testé
